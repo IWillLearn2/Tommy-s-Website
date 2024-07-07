@@ -1,15 +1,21 @@
+html {
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Oswald;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h1 { 
     font-size: 60px;
-    margin: -10px;
+    margin: -10px;  
+    font-weight: 900;
 }
 
 p {
     font-size: 32px;
+    text-shadow: rgba(0, 0, 0, 0.133) 0 0 1px;
 }
