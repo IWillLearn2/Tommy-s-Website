@@ -1,0 +1,8 @@
+1. Añadirle colores a la página, backgroun y fonts.
+2. Seleccionar imagenes, pasarlas al computador y luego añadirlas al folder del proyecto.
+3. Una vez agregadas las páginas, repasar el HTML y CSS. 
+	Cuando esté todo listo, crear nueva branch en git y empezar con las animaciones.
+4. Crear una versión alternativa en inglés.
+5. Crear una versión alternativa en donde la paleta de colores sea la visión de un perro.
+	Visión perruna.
+
