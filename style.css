@@ -11,6 +11,7 @@ h1 {
     font-size: 80px;
     margin: -10px;  
     font-weight: 900;
+    color: rgba(255, 244, 244, 0.927);
 }
 
 h2 {
@@ -28,6 +29,7 @@ header {
     flex-direction: row;
     border: 2px solid black;
     padding: 100px 0px 0px;
+    background-color: rgb(115, 0, 0);
 }
 
 .logo {
@@ -62,15 +64,19 @@ nav {
 
 .nav-container ul {
     display: flex;
-    gap: 30px;
+    gap: 0px 10px;
+    margin-top: -2px;
 }
 
 .nav-container li {
     display: flex;
+    background-color: rgb(124, 1, 1);
     list-style-type: none;
-    padding: 20px 40px;
+    padding: 5px 40px;
     font-weight: 600;
-    border: 1px solid orange;
+    font-size: 20px;
+    color: rgb(255, 253, 244);
+    border-radius: 0px 0px 24px 24px;
 }
 
 .landing-images {
@@ -93,27 +99,38 @@ main {
     flex-direction: column;
     border: 2px solid red;
     margin-top: 200px;
+    background-color: rgb(124, 1, 1);
 }
 
 .my-story {
     border: 1px solid black;
     width: 50%;
     align-self: center;
+    color: rgb(255, 253, 244);
+}
+
+.my-story h2 {
+    margin-bottom: 100px;
 }
 
 .my-story p {
     font-size: 30px;
+    color: rgba(255, 210, 202, 0.955);
 }
+
 .my-style h2 {
+    color: rgb(216, 23, 23);
     margin-bottom: -30px;
 }
 
 .my-style {
+    background-color: white;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
     border: 1px solid grey;
     gap: 100px;
+    padding-bottom: 150px;
 }
 
 .block-1 {
@@ -133,22 +150,25 @@ main {
 }
 
 .favorites {
-    margin-top: 150px;
+    color: rgb(255, 253, 244);
     display: flex;
     flex-direction: column;
     border: 4px solid grey;
 }
 
 blockquote {
+    background-color: rgb(223, 223, 223);
     font-style: italic;
+    /* box-shadow: Meter aquí un box-shadow xd */
+    padding: 0px 30px 10px;
 }
 
 blockquote p {
-    font-size: 26px;
+    font-size: 18px;
 }
 
 blockquote footer {
-    font-size: 15px;
+    font-size: 12x;
 }
 
 .favorites h2 {
@@ -167,4 +187,10 @@ blockquote footer {
 
 footer {
     margin-top: 50px;
+}
+
+.end {
+    background-color: rgb(63, 0, 0);
+    color: white;
+    padding-top: 50px;
 }
