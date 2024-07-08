@@ -34,8 +34,8 @@ header {
 
 .logo {
     align-self: flex-end;
-    border: 2px solid green;
     margin-left: 200px;
+    aspect-ratio: 3/4;
 }
 
 .hero-text {
