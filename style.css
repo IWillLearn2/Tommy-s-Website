@@ -50,41 +50,11 @@ nav {
     flex-direction: column;
 }
 
-.nav-opener {
-    display: flex;
-    justify-self: center;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.nav-container {
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-container ul {
-    display: flex;
-    gap: 0px 10px;
-    margin-top: -2px;
-}
-
-.nav-container li {
-    display: flex;
-    background-color: rgb(124, 1, 1);
-    list-style-type: none;
-    padding: 5px 40px;
-    font-weight: 600;
-    font-size: 20px;
-    color: rgb(255, 253, 244);
-    border-radius: 0px 0px 24px 24px;
-}
-
 .landing-images {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 180px;
 }
 
 .landing-image {
