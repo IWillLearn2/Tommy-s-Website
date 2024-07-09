@@ -121,7 +121,7 @@ main {
 }
 
 .my-style h2 {
-    color: rgb(216, 23, 23);
+    color: rgb(171, 14, 14);
     margin-bottom: -30px;
 }
 
@@ -132,6 +132,7 @@ main {
     flex-direction: column;
     gap: 100px;
     padding-bottom: 150px;
+    padding-top: 150px;
 }
 
 .block-1 {
@@ -169,24 +170,12 @@ main {
 
 .favorites {
     color: rgb(255, 253, 244);
-    display: flex;
-    flex-direction: column;
-}
-
-blockquote {
-    background-color: rgb(223, 223, 223);
-    font-style: italic;
-    /* box-shadow: Meter aquí un box-shadow xd */
-    padding: 0px 30px 10px;
-    margin-top: -20px;
-}
-
-blockquote p {
-    font-size: 18px;
-}
-
-blockquote footer {
-    font-size: 12x;
+    width: 30%;
+    margin: auto;
+    background-color: rgb(124, 1, 1);
+    border-radius: 1000px;
+    padding: 20px 0px;
+    
 }
 
 .favorites h2 {
