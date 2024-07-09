@@ -40,6 +40,41 @@ header {
     aspect-ratio: 3/4;
 }
 
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.hero-1 {
+    animation-name: slideInRight;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+.hero-2 {
+    animation-name: slideInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+.hero-3 {
+    animation-name: slideInRight;
+    animation-duration: 2.4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
 .hero-text {
     flex: 5 4 auto;
     margin: 30px 0px 0px 60px;
@@ -53,7 +88,7 @@ nav {
 .landing-images {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 180px;
 }
 
@@ -61,13 +96,13 @@ nav {
     border-radius: 10px;
     aspect-ratio: 4/3;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.6); 
-    transition: ease-in-out 1s;
+    transition: ease-in-out 0.5s;
 }
 
 .landing-image:hover {
     width: 50%;
     height: 50%;
-    transition: ease 1s;
+    transition: ease 0.8s;
 }
 
 aside {
