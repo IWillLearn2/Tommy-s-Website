@@ -54,6 +54,7 @@ nav {
     display: flex;
     justify-self: center;
     margin: auto;
+    margin-top: 20px;
 }
 
 .nav-container {
