@@ -135,10 +135,16 @@ main {
 
 .block-1 {
     display: flex;
-    flex-direction: row-reverse;
-    border: 4px solid brown;
-    margin-right: 300px;
+    flex-direction: row;
+    margin-right: 100px;
+    padding: 10px;
     justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+.block-1-content {
+    display: flex;
+    gap: 100px;
 }
 
 .block-1 image,
@@ -149,9 +155,15 @@ main {
 .block-2 {
     display: flex;
     flex-direction: row;
-    border: 4px solid brown;
-    margin-left: 300px;
+    margin-left: 100px;
     justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+.block-2-content {
+    display: flex;
+    gap: 100px;
 }
 
 .favorites {
@@ -165,6 +177,7 @@ blockquote {
     font-style: italic;
     /* box-shadow: Meter aquí un box-shadow xd */
     padding: 0px 30px 10px;
+    margin-top: -20px;
 }
 
 blockquote p {
