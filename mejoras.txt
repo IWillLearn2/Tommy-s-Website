@@ -1,9 +1,8 @@
-1. Terminar de setear las imagenes con resolución y tamaño adecuado (0/6)
-2. Agregar un icono para el nav-bar
-3. Empezar a trabajar en las animaciones
-4. Crear una versión alternativa en inglés
-5. Crear una versión alternativa en donde la paleta de colores sea la visión de un perro.
-	Visión perruna
-6. Retocar últimos detalles
+Intentar mayor fluidez:
+
+1. Cambiar formato de fotos a webp.
+2. Ver la cascada en css para mayor rendimiento. Animaciones y transiciones al final.
+3. Cambiar las clases de las imagenes por ID.
+4. Revisar las keyframes y transiciones, ver si se puede hacer algo mejor.
 
 
