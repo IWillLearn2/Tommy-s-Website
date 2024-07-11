@@ -149,14 +149,13 @@ main {
     color: rgb(255, 253, 244);
     width: 30%;
     margin: auto;
-    background-color: rgb(124, 1, 1);
+    background-color: rgba(141, 34, 34, 0.064);
     border-radius: 1000px;
-    padding: 20px 0px;
-    
 }
 
 .favorites h2 {
     font-size: 34px;
+    color: black;
 }
 
 .favorites ul {
@@ -166,12 +165,13 @@ main {
 
 .favorites li {
     list-style-type:none;
-    margin: 20px;
+    margin: 15px;
+    font-size: 18px;
 }
 
 .favorites a {
     text-decoration: none;
-    color:bisque;
+    color:rgb(126, 69, 1);
     font-weight: bold;
     transition: ease-in-out 0.2s;
 }
