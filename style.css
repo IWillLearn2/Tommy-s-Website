@@ -169,6 +169,20 @@ main {
     margin: 20px;
 }
 
+.favorites a {
+    text-decoration: none;
+    color:bisque;
+    font-weight: bold;
+    transition: ease-in-out 0.2s;
+}
+
+.favorites a:hover {
+    text-decoration: none;
+    color:rgb(211, 148, 70);
+    font-weight: bold;
+    transition: ease-in-out 0.2s;
+}
+
 footer {
     margin-top: 50px;
 }
